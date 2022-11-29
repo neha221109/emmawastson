@@ -1,0 +1,99 @@
+#profile{
+    border-radius:50%;
+    height:300px;
+    width:200px;
+    margin-top: 150px;
+}
+body{
+    text-align: center;
+    font-family: 'Dancing Script', cursive;
+}
+#welcome{
+    height:650px;
+    z-index:9px;
+    background: linear-gradient(#03fc90,#03bafc);
+    padding-bottom: 20px;
+    
+}
+h1{
+    font-size: 40px;
+    line-height: 1.2;
+    font-family:cursive;
+    
+}
+#name{
+    font-size: 30px;
+    line-height: 1.2;
+}
+/*
+.menu{
+    list-style: none;
+    position:absolute;
+    top:10px;
+    right:30px;
+    z-index:10;
+    cursor:pointer;
+}
+*/
+.menu{
+    list-style:none;
+    position: fixed;
+    background-color: aqua;
+    width: 100%;
+    margin-top: 0px;
+    top: 0px;
+    z-index: 10;
+    cursor: pointer;
+    height: 50px;
+}
+.item{
+
+    display:inline;
+    padding: 30px;
+    font-size: 20px;
+    font-family: fantasy;
+    color: black;
+}
+.item:hover{
+    font-size:50px;
+    text-decoration: underline;
+}
+p{
+    line-height: 1.5;
+    font-size:17px;
+    max-width: 450px;
+    margin:25px auto;
+    
+    
+}
+.line{
+    background-color: black;
+    height: 6px;
+    width:100px;
+    margin: 8px auto;
+
+}
+html{
+    scroll-behavior: smooth;
+}
+.menu a{
+    text-decoration: none;
+    color: black;
+}
+a{
+ font-size: 20px;
+}
+#contacts{
+    background-color: brown;
+    color: antiquewhite;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+#contacts a{
+    text-decoration: none;
+    color: antiquewhite;
+}
+#contacts h3{
+    display: inline;
+}
